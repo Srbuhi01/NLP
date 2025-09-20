@@ -69,5 +69,24 @@ Text:
 - support@example.com
 - sales@company.org
 
+## Homework 3 – Text Preparation and Cleaning
+
+Objective: This homework focuses on the analysis and cleaning of the Coachella festival tweets dataset. The main goal was to remove unwanted elements from the data and make it more suitable for analysis.
+
+***The following operations were performed:***
+
+1. Extraction of Hashtags and Emails: All hashtags and email addresses from each tweet were extracted and stored in new, separate columns named "hashtags" and "emails" respectively.
+
+2. Text Cleaning: A series of functions were applied to clean the tweet text, including:
+
+- Removal of usernames (@) and links (http, https).
+
+- Removal of non-ASCII symbols (e.g., emojis).
+
+- Conversion of text to lowercase.
+
+- Removal of stop words, numbers, and special characters (punctuation, etc.).
+
+As a result, a cleaned dataset was created, ready for further analysis.
 
 
